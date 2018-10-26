@@ -1,0 +1,161 @@
+$font-family: 'Quicksand', sans-serif;
+$primary-colour:  #FEBD97;
+
+html {
+  overflow-x: hidden;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.title, h4.summary {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 5px;
+  background-color: $primary-colour;
+  border-radius: 5px;
+}
+
+hr {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: $primary-colour;
+  border: 0px;
+}
+
+.sidebar {
+    font: 100% $font-family;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    padding: 15px 10px 0 25px;
+    background: #fff;
+    z-index: 1;
+
+    .profile-title {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    span {
+      margin-left: 20px;
+      padding: 5px;
+    }
+
+    p {
+      margin-top: 2px;
+    }
+
+    h1 {
+      margin: 0px;
+    }
+
+    ul {
+      margin: 2px;
+    }
+    .sidebar-links {
+      margin-left: 5px;
+    }
+
+}
+.profile-picture {
+  width: 200x;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.container {
+  margin-left: 320px;
+  font: 100% $font-family;
+  width: 900px;
+
+  .card {
+    width: 300px;
+    display: table-cell;
+    margin: 10px;
+    padding-right: 7px;
+
+    h4 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      margin-top: 5px;
+    }
+  }
+}
+
+.projects {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+  .project-title {
+    margin-top: 1px;
+    margin-bottom: 1px
+  }
+
+  h5 {
+    margin:2px;
+  }
+}
+
+.project-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.education {
+  h4 {
+    margin-bottom: 2px;
+  }
+  h5 {
+    margin: 2px;
+  }
+}
+
+.experience {
+  i {
+    padding-right: 5px;
+  }
+  h4 {
+    margin-bottom: 5px;
+  }
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  list-style-position: outside;
+  margin-top: 2px;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+
+li::before {
+  content: "•";
+  padding-right: 10px;
+  color: $primary-colour;
+}
+
+h5.job-sum {
+  display: inline;
+}
