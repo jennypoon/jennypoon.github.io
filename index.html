@@ -8,26 +8,43 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+
   </head>
 
   <body>
     <section class="sidebar">
-      <h1>Jenny Poon</h1>
-      <h2>Web Developer</h2>
+      <a href="https://www.linkedin.com/in/jenny-poon/">
+        <img class="profile-picture" src="images/profile.jpg" alt="profile picture">
+        <h1>Jenny Poon</h1>
+      </a>
+      <h4 class="profile-title">WEB DEVELOPER</h4>
+      <hr>
       <div class="sidebar-links">
-        <ul>Email:<a href="mailto:jenny.poon@live.ca">jenny.poon@live.ca</a></ul>
-        <ul>Phone: 604-716-7891</ul>
-        <ul><a href="https://github.com/jennypoon">Github</a></ul>
-        <ul><a href="https://www.linkedin.com/in/jhpoon/">Linkedin</a></ul>
-      </div>
-      <h2> Summary </h2>
-      <p>A Jr. Web Developer with a degree in analytical chemistry and an eye for detail. She enjoys the challenges of being part of a fast-pace team environment and displays excellent time management and organizational skills. Her knowledge of web development, combined with her passion for design, provides her with the creative outlet to express her active imagination. Her mantra to never stop learning pushes her curiousity to explore new technologies.</p>
+        <div>
+          <a href="mailto:jenny.poon@live.ca">
+            <i class="far fa-envelope"></i>
+            <span>jenny.poon@live.ca</span>
+          </a>
+        </div>
+        <div>
+          <i class="fas fa-mobile-alt"></i>
+          <span>604-716-7891</span>
+        </div>
+        <div>
+          <a href="https://github.com/jennypoon">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+      <h4 class="profile-title summary"> SUMMARY </h4>
+      <p>A Jr. Web Developer with an analytical background and an eye for detail. She enjoys the challenges of working in a fast-pace team environment and displays excellent time management and organizational skills. Her knowledge of web development, combined with her passion for design, provides her with the creative outlet to express her active imagination. Her mantra to never stop learning pushes her curiousity to explore new technologies.</p>
     </section>
 
     <main class="container">
       <section class="skills-stack">
         <h2 class="title">Skill Stack</h2>
-
         <div class="card">
           <h4>LANGUAGES &amp; FRAMEWORKS</h4>
           <p>JavaScript, HTML/CSS/SASS, Knex, Express, EJS, Ruby on Rails, Node.js, React, jQuery, Bootstrap</p>
@@ -46,15 +63,24 @@
 
       <section class="projects">
         <h2 class="title">Projects</h2>
-        <h4>WeSource</h4>
-          <h5>Node.js, Cheerio, Express, EJS, jQuery, AJAX, HTML5, Sass, Bootstrap, PostgresSQL, Knex</h5>
-          <p>A collaborative board that allows learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user. This was a group midterm project and I was responsible for the database and back-end scope</p>
+        <div class="projects">
+            <a href="https://github.com/jennypoon/WeSource"><img class="project-image" src="images/thumb.jpg"></a>
+            <h3 class="project-title">WeSource</h3>
+            <p>
+            <h5>Node.js, Cheerio, Express, EJS, jQuery, AJAX, HTML5, Sass, Bootstrap, PostgresSQL, Knex</h5>
+            A collaborative board that allows learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user. This was a group midterm project and I was responsible for the database and back-end scope</p>
+          </div>
 
-        <h4>Whaler</h4>
+        <div class="projects">
+          <a href="https://github.com/jennypoon/tweeter"><img class="project-image" src="images/whale.png" alt="whalerlogo"></a>
+          <h3 class="project-title">Whaler</h3>
           <h5>Node.js, Express, MongoDB, HTML5, CSS, jQuery, AJAX, HTML5</h5>
-          <p>A simple, single page Twitter inspired built that allows users to post and see "wails" of other users</p>
+          <p>A simple, single page Twitter inspired built that allows users to post and see the whales/wails of other users</p>
+        </div>
 
-        <h4>TinyApp</h4>
+        <div class="projects">
+          <a href="https://github.com/jennypoon/tinyapp"><img class="project-image" src="images/tinyapp.png" alt="tinyapp logo"></a>
+          <h3 class="project-title">TinyApp</h3>
           <h5>Node.js, Express, HTML5, CSS</h5>
           <p>TinyApp is a full stack web application built that allows users to shorten long URLs (a la bit.ly).</p>
         </div>
@@ -63,38 +89,51 @@
       <section class="education">
         <h2 class="title">Education</h2>
         <h4>LIGHTHOUSE LABS</h4>
-          <h5>Sept 2018 to Nov 2018 - Vancouver, BC</h5>
-          <p>A full-time immersive web development program consisting of over 500 hours of programming experience and covers topics such as JavaScript, React, Node.js, MongoDB, PostgreSQL, jQuery, HTML, CSS, and SASS.</p>
+          <h5>Sept. 2018 - Nov 2018</h5>
+          <ul>Web Development Bootcamp
+            <li>Full-time immersive web development program</li>
+            <li>Consisting of over 500 hours of programming experience</li>
+            <li>Covers topics such as JavaScript, React, Node.js, MongoDB, PostgreSQL, jQuery, HTML, CSS, and SASS.</li>
+          </ul>
 
         <h4>DOUGLAS COLLEGE</h4>
-          <h5>Jan 2018 to April 2018 - Vancouver, BC</h5>
-          <p>Completion of Document Design Course - Introductory to the basic principles of two-dimensional design, including balance and visual dynamics, layout, publication design, and typography using Adobe InDesign Application</p>
+          <h5>Jan. 2018 - April 2018</h5>
+          <ul> Completion of Document Design Course:
+            <li> Introductory to the basic principles of two-dimensional design</li>
+            <li> Balance and visual dynamics, layout, publication design, and typography </li>
+            <li> Advanced Adobe InDesign Application</li>
+          </ul>
 
         <h4>UNIVERSITY OF BRITISH COLUMBIA</h4>
-          <h5>Sept 2018 to May 2018 - Vancouver, BC</h5>
-          <p>Bachelors of Science, Major in Chemistry</p>
-          <p>Successful completion of Science Co-op Program</p>
+          <h5>Sept. 2008 - May 2013</h5>
+          <ul> Bachelors of Science, Major in Chemistry
+            <li>Successful completion of Science Co-op Program</li>
+          <ul>
         </section>
-
 
       <section class="experience">
         <h2 class="title">Experience</h2>
         <div>
-        <h4>Sales and Proposal Coordinator - Tervita Corporation</h4>
-          <h5>April 2016 to Sept 2018 - Richmond, BC</h5>
-          <ul>Developed and continuosly updated professional marketing material using Adobe CC Applications</ul>
-          <ul>Exhibit excellent time management and communication skills by simultaneously overseeing the development of two to seven proposals under tight deadlines</ul>
-          <ul>Displayed high level of attention to detail while performing the final review of all proposals prior to submission</ul>
-          <ul>Collaborate with corporate management to increase the efficiency and effectiveness of the bid review and risk assessment processes</ul>
-          <ul>Due to sales and marketing efforts, Tervita exceeded its sales targets by 36% in the 2017 Fiscal Year</ul>
+          <h4>SALES &amp; PROPOSAL COORDINATOR</h4>
+          <i class="fas fa-map-marker-alt"></i><h5 class="job-sum">Tervita Corporation, Richmond BC</h5><br>
+          <i class="far fa-calendar-alt"></i><h5 class="job-sum">April 2016 - Sept. 2018 </h5>
+          <ul class="job-description">
+            <li>Developed and continuosly updated professional marketing material using Adobe CC Applications</li>
+            <li>Exhibited excellent time management and communication skills by simultaneously overseeing the development of 2-7 proposals under tight deadlines</li>
+            <li>Displayed high level of attention to detail while performing the final review of all proposals prior to submission</li>
+            <li>Collaborate with corporate management to increase the efficiency and effectiveness of the bid review and risk assessment processes</li>
+            <li>Due to sales and marketing efforts, Tervita exceeded its sales targets by 36% in the 2017 Fiscal Year</li>
         </div>
         <div>
-        <h4>Sales Associate/Jr. Account Manager - ALS Environmental</h4>
-        <h5>August 2014 to April 2016 - Burnaby, BC</h5>
-          <ul>Managed the production flow of work orders, including maintaining turnaround time and test tracking</ul>
-          <ul>Primary contact for all new business opportunities for ALS Vancouver</ul>
-          <ul>Collaborated with subject matter experts based in different parts of North America to develop proposals</ul>
-          <ul>Redesigned ALS Vancouver proposal template to be tailored and visually appealing to its intended audience.</ul>
+        <h4>SALES ASSOCIATE \ JR ACCOUNT MANAGER</h4>
+          <i class="fas fa-map-marker-alt"></i><h5 class="job-sum">ALS Environmental, Burnaby BC</h5><br>
+          <i class="far fa-calendar-alt"></i><h5 class="job-sum">Aug. 2014 - April 2016</h5>
+          <ul>
+            <li>Managed the production flow of work orders, including maintaining turnaround time and test tracking</li>
+            <li>Primary contact for all new business opportunities for ALS Vancouver</li>
+            <li>Collaborated with subject matter experts based in different parts of North America to develop proposals</li>
+            <li>Redesigned ALS Vancouver proposal template to be tailored and visually appealing to its intended audience.</li>
+          </ul>
         </div>
       </section>
 
