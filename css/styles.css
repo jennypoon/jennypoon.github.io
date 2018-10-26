@@ -1,0 +1,143 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+}
+html a {
+  text-decoration: none;
+  color: black;
+}
+
+.title, h4.summary {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 5px;
+  background-color: #FEBD97;
+  border-radius: 5px;
+}
+
+hr {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: #FEBD97;
+  border: 0px;
+}
+
+.sidebar {
+  font: 100% "Quicksand", sans-serif;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  padding: 15px 10px 0 25px;
+  background: #fff;
+  z-index: 1;
+}
+.sidebar .profile-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.sidebar span {
+  margin-left: 20px;
+  padding: 5px;
+}
+.sidebar p {
+  margin-top: 2px;
+}
+.sidebar h1 {
+  margin: 0px;
+}
+.sidebar ul {
+  margin: 2px;
+}
+.sidebar .sidebar-links {
+  margin-left: 5px;
+}
+
+.profile-picture {
+  width: 200x;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.container {
+  margin-left: 320px;
+  font: 100% "Quicksand", sans-serif;
+  width: 900px;
+}
+.container .card {
+  width: 300px;
+  display: table-cell;
+  margin: 10px;
+  padding-right: 7px;
+}
+.container .card h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.container .card p {
+  margin-top: 5px;
+}
+
+.projects {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.projects .project-title {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.projects h5 {
+  margin: 2px;
+}
+
+.project-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.education h4 {
+  margin-bottom: 2px;
+}
+.education h5 {
+  margin: 2px;
+}
+
+.experience i {
+  padding-right: 5px;
+}
+.experience h4 {
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  list-style-position: outside;
+  margin-top: 2px;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li::before {
+  content: "•";
+  padding-right: 10px;
+  color: #FEBD97;
+}
+
+h5.job-sum {
+  display: inline;
+}
+
+/*# sourceMappingURL=styles.css.map */
