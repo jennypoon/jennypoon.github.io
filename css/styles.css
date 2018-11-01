@@ -1,7 +1,4 @@
 @charset "UTF-8";
-html {
-  overflow-x: hidden;
-}
 html a {
   text-decoration: none;
   color: black;
@@ -25,6 +22,7 @@ hr {
 
 .sidebar {
   font: 100% "Quicksand", sans-serif;
+  height: 100%;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -65,7 +63,7 @@ hr {
 .container {
   margin-left: 320px;
   font: 100% "Quicksand", sans-serif;
-  width: 900px;
+  width: 65%;
 }
 .container .card {
   width: 300px;
@@ -138,6 +136,15 @@ li::before {
 
 h5.job-sum {
   display: inline;
+}
+
+h2.title {
+  margin: 0px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
