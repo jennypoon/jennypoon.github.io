@@ -1,3 +1,6 @@
+<!-- Jennys-MacBook-Pro:resume jpoon$ sass --watch scss:css -->
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,81 +18,126 @@
 
   <body>
     <section class="sidebar">
-      <a href="https://www.linkedin.com/in/jenny-poon/" target="_blank">
-        <img class="profile-picture" src="images/profile.jpg" alt="profile picture">
-        <h1>Jenny Poon</h1>
-      </a>
-      <h4 class="profile-title">WEB DEVELOPER</h4>
-      <hr>
-      <div class="sidebar-links">
-        <div>
-          <a href="mailto:jenny.poon@live.ca">
-            <i class="far fa-envelope"></i>
-            <span>jenny.poon@live.ca</span>
-          </a>
-        </div>
-        <div>
-          <i class="fas fa-mobile-alt"></i>
-          <span>604-716-7891</span>
-        </div>
-        <div>
-          <a href="https://github.com/jennypoon" target="_blank">
-            <i class="fab fa-github"></i>
-            <span>GitHub</span>
-          </a>
-        </div>
+      <div class="profile-picture">
+        <a href="https://www.linkedin.com/in/jenny-poon/" target="_blank">
+          <img class="profile-picture" src="images/profile.jpg" alt="profile picture">
+        </a>
       </div>
-      <h4 class="profile-title summary"> SKILL STACK </h4>
-        <div class="card">
-          <h4>LANGUAGES &amp; FRAMEWORKS</h4>
-          <p>JavaScript, HTML/CSS/SASS, Knex, Express, EJS, Ruby on Rails, Node.js, React, jQuery, Bootstrap</p>
+      <div class="sidebar-text">
+        <h1 class="profilepic_name">JENNY POON</h1>
+        <h4 class="profilepic_title">Web Developer</h4>
+        <div class="sidebar-links">
+          <div>
+            <a href="mailto:jenny.poon@live.ca">
+              <img class="icon" src="images/mail.png">
+              <span class="icon-text">jenny.poon@live.ca</span>
+            </a>
+          </div>
+          <div>
+            <img class="icon" src="images/phone.png">
+            <span class="icon-text">604-716-7891</span>
+          </div>
+            <a href="https://github.com/jennypoon" target="_blank">
+              <img class="icon" src="images/github.png">
+              <span class="icon-text">jennypoon</span>
+            </a>
         </div>
+        <h3 class="skill"> SKILL STACK </h3>
+          <div class="card">
+            <h4>LANGUAGES &amp; FRAMEWORKS</h4>
+            <p class="skill-stack">JavaScript, HTML/CSS/SASS, Knex, Express, EJS, Ruby on Rails, Node.js, React, jQuery, Bootstrap</p>
+          </div>
 
-        <div class="card">
-          <h4>SYSTEMS &amp; DATABASES</h4>
-          <p>Git/GitHub, MongoDB, PostgreSQL</p>
-        </div>
+          <div class="card">
+            <h4>SYSTEMS &amp; DATABASES</h4>
+            <p class="skill-stack">Git/GitHub, MongoDB, PostgreSQL</p>
+          </div>
 
-        <div class="card">
-          <h4>ADDITIONAL SKILLS</h4>
-          <p>Adobe Photoshop, Adobe Illustrator, Adobe InDesign</p>
+          <div class="card">
+            <h4>ADDITIONAL SKILLS</h4>
+            <p class="skill-stack">Adobe Photoshop, Adobe Illustrator, Adobe InDesign</p>
+          </div>
         </div>
     </section>
 
     <main class="container">
-      <section class="skills-stack">
+      <section class="section_title">
+        <i class="fas fa-user-astronaut fa-2x"></i>
         <h2 class="title">Summary</h2>
         <p>A junior web developer with a STEAM background and an eye for detail. She enjoys the challenges of working in a fast-pace team environment and displays excellent time management and organizational skills. Her knowledge of web development, combined with her experience in designing, provides her with the creative outlet to express her active imagination. Her mantra to never stop learning pushes her curiosity to explore new technologies.</p>
-
       </section>
 
       <section class="projects">
+        <i class="fas fa-project-diagram fa-2x"></i>
         <h2 class="title">Projects</h2>
-        <div class="projects">
+<!--         <div class="projects">
             <a href="https://github.com/jennypoon/WeSource" target="_blank"><img class="project-image" src="images/thumb.jpg" alt="WeSource Logo"></a>
             <h3 class="project-title">WeSource</h3>
             <h5>Node.js, Cheerio, Express, EJS, jQuery, AJAX, HTML5, Sass, Bootstrap, PostgresSQL, Knex</h5>
             <p>A full stack web application that allows learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user. This was a collaborative project in which I was the lead back-end and database developer. </p>
-        </div>
+        </div> -->
 
         <div class="projects">
-          <a href="https://github.com/jennypoon/tweeter" target="_blank"><img class="project-image" src="images/whale.png" alt="whalerlogo"></a>
-          <h3 class="project-title">Whaler</h3>
-          <h5>Node.js, Express, MongoDB, HTML5, CSS, jQuery, AJAX, HTML5</h5>
-          <p>A single page Twitter-inspired full stack web application that allows users to post and see the whales/wails of other users. The web application can send and retrieve data from the server asynchronously without interfering with the display and behavior of the page</p>
+          <div class="hvrbox">
+            <a href="https://github.com/jennypoon/WeSource" target="_blank">
+            <img src="images/wesource-hvrbox.png" alt="wesource-screenshot" class="hrvbox-bottom-layer">
+            <div class="hvrbox-on-hover">
+              <div class="hvrbox-text">
+                <h3 class="project-title">WeSource</h3>
+                <h5>Node.js, Cheerio, Express, EJS, jQuery, AJAX, HTML5, Sass, Bootstrap, PostgresSQL, Knex</h5>
+                <p>A full stack web application that allows learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user. This was a collaborative project in which I was the lead back-end and database developer. </p>
+              </div>
+            </div>
+          </a>
         </div>
 
-        <div class="projects">
-          <a href="https://github.com/jennypoon/tinyapp" target="_blank"><img class="project-image" src="images/tinyApp.png" alt="tinyapp logo"></a>
-          <h3 class="project-title">TinyApp</h3>
-          <h5>Node.js, Express, HTML5, CSS</h5>
-          <p>TinyApp is a full stack web application that allows users to log in and create shorten long URLs (a la bit.ly) for sharing purposes. Encrypted cookies and hashed password are used to enhance security of the users. </p>
+          <div class="hvrbox">
+            <a href="https://github.com/jennypoon/ChattyApp" target="_blank">
+            <div class="eckgo"><img src="images/eckgo.png" alt="Eckgo-screenshot" class="hrvbox-bottom-layer"></div>
+            <div class="hvrbox-on-hover">
+              <div class="hvrbox-text">
+                <h3 class="project-title">EckGO</h3>
+                <h5>React, Webpack, Babel</h5>
+                <p>EckGO an online communication service built using React and WebSocket that allows users on the same server to chat with each other in real-time.</p>
+              </div>
+            </div>
+          </a>
         </div>
+
+          <div class="hvrbox">
+            <a href="https://github.com/jennypoon/tweeter" target="_blank">
+            <img src="images/tweeter-hvrbox.png" alt="whaler-screenshot" class="hrvbox-bottom-layer">
+            <div class="hvrbox-on-hover">
+              <div class="hvrbox-text">
+                <h3 class="project-title">Whaler</h3>
+                <h5>Node.js, Express, MongoDB, HTML5, CSS, jQuery, AJAX, HTML5</h5>
+                <p>A single page Twitter-inspired full stack web application that allows users to post and see the whales/wails of other users. The web application can send and retrieve data from the server asynchronously without interfering with the display and behavior of the page.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+          <div class="hvrbox">
+            <a href="https://github.com/jennypoon/TinyApp-Project" target="_blank">
+            <img src="images/tinyapp-hvrbox.png" alt="tinyapp-screenshot" class="hrvbox-bottom-layer">
+            <div class="hvrbox-on-hover">
+              <div class="hvrbox-text">
+                <h3 class="project-title">TinyApp</h3>
+                <h5>Node.js, Express, HTML5, CSS</h5>
+                <p>TinyApp is a full stack web application that allows users to log in and create shorten long URLs (a la bit.ly) for sharing purposes. Encrypted cookies and hashed password are used to enhance security of the users. </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
         </section>
 
       <section class="experience">
+        <i class="fas fa-suitcase fa-2x"></i>
         <h2 class="title">Experience</h2>
-        <div>
+        <div class="work-experience">
           <h4>SALES &amp; PROPOSAL COORDINATOR</h4>
           <i class="fas fa-map-marker-alt"></i><h5 class="job-sum">Tervita Corporation, Richmond BC</h5><br>
           <i class="far fa-calendar-alt"></i><h5 class="job-sum">April 2016 - Sept. 2018 </h5>
@@ -100,8 +148,8 @@
             <li>Collaborate with corporate management to increase the efficiency and effectiveness of the bid review and risk assessment processes</li>
             <li>Due to sales and marketing efforts, Tervita exceeded its sales targets by 36% in the 2017 Fiscal Year</li>
         </div>
-        <div>
-        <h4>SALES ASSOCIATE / JR ACCOUNT MANAGER</h4>
+        <div class="work-experience">
+          <h4>SALES ASSOCIATE / JR ACCOUNT MANAGER</h4>
           <i class="fas fa-map-marker-alt"></i><h5 class="job-sum">ALS Environmental, Burnaby BC</h5><br>
           <i class="far fa-calendar-alt"></i><h5 class="job-sum">Aug. 2014 - April 2016</h5>
           <ul>
@@ -114,30 +162,86 @@
       </section>
 
       <section class="education">
+        <i class="fas fa-graduation-cap fa-2x"></i>
         <h2 class="title">Education</h2>
-        <h4>LIGHTHOUSE LABS</h4>
+        <div class="education-list">
+        <div class="hvrbox">
+          <img src="images/lhl_campus.jpg" alt="Lighthouse Labs" class="hrvbox-bottom-layer">
+          <div class="hvrbox-on-hover">
+            <div class="hvrbox-text">
+              <h3 class="education-title">LIGHTHOUSE LABS</h3>
+              <h5>Sept. 2018 - Nov 2018</h5>
+              <ul>Web Development Bootcamp
+                <li>Full-time immersive web development program</li>
+                <li>Consisting of over 500 hours of programming experience</li>
+                <li>Covers topics such as JavaScript, React, Node.js, MongoDB, PostgreSQL, jQuery, HTML, CSS, and SASS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hvrbox">
+        <img src="images/douglasbanner.jpg" alt="Douglas College" class="hrvbox-bottom-layer">
+        <div class="hvrbox-on-hover">
+          <div class="hvrbox-text">
+            <h3 class="education-title">DOUGLAS COLLEGE</h3>
+            <h5>Jan. 2018 - April 2018</h5>
+            <ul> Completion of Document Design Course:
+              <li> Introductory to the basic principles of two-dimensional design</li>
+              <li> Balance and visual dynamics, layout, publication design, and typography </li>
+              <li> Advanced Adobe InDesign Application</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hvrbox">
+        <img src="images/ubc_banner.jpg" alt="UBC" class="hrvbox-bottom-layer">
+          <div class="hvrbox-on-hover">
+            <div class="hvrbox-text">
+              <h3 class="education-title">UNIVERSITY OF BRITISH COLUMBIA</h3>
+              <h5>Sept. 2008 - May 2013</h5>
+              <ul> Bachelors of Science, Major in Chemistry
+                <li>Successful completion of Science Co-op Program</li>
+                <li>President of the UBC Arts and Crafts Club</li>
+                <li>UBC Imagine Day Orientation Leader for three consecutive years</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--
+
+          <h4>LIGHTHOUSE LABS</h4>
           <h5>Sept. 2018 - Nov 2018</h5>
           <ul>Web Development Bootcamp
             <li>Full-time immersive web development program</li>
             <li>Consisting of over 500 hours of programming experience</li>
             <li>Covers topics such as JavaScript, React, Node.js, MongoDB, PostgreSQL, jQuery, HTML, CSS, and SASS.</li>
-          </ul>
+          </ul> -->
+       <!--  </div>
 
-        <h4>DOUGLAS COLLEGE</h4>
+        <div class="education-type">
+          <h4>DOUGLAS COLLEGE</h4>
           <h5>Jan. 2018 - April 2018</h5>
           <ul> Completion of Document Design Course:
             <li> Introductory to the basic principles of two-dimensional design</li>
             <li> Balance and visual dynamics, layout, publication design, and typography </li>
             <li> Advanced Adobe InDesign Application</li>
           </ul>
+        </div>
 
-        <h4>UNIVERSITY OF BRITISH COLUMBIA</h4>
+        <div class="education-type">
+          <h4>UNIVERSITY OF BRITISH COLUMBIA</h4>
           <h5>Sept. 2008 - May 2013</h5>
           <ul> Bachelors of Science, Major in Chemistry
             <li>Successful completion of Science Co-op Program</li>
             <li>President of the UBC Arts and Crafts Club</li>
             <li>UBC Imagine Day Orientation Leader for three consecutive years</li>
-          <ul>
+          </ul>
+          </div> -->
         </section>
 
     </main>

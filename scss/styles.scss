@@ -1,161 +1,299 @@
-$font-family: 'Quicksand', sans-serif;
-$primary-colour:  #FEBD97;
+  $font-family: 'Quicksand', sans-serif;
+  $primary-colour: #FFF;
+  $main-blue: #00a4e8;
+  $main-grey: #808080;
 
-html {
-  overflow-x: hidden;
-
-  a {
-    text-decoration: none;
-    color: black;
+  html {
+    background-color:  #f2f2f2;
+    a {
+      text-decoration: none;
+      color: white;
+      width: 100%;
+    }
   }
-}
 
-.title, h4.summary {
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding: 5px;
-  background-color: $primary-colour;
-  border-radius: 5px;
-}
+  .title, h4.summary {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    border-radius: 5px;
+  }
 
-hr {
-  width: 100%;
-  height: 5px;
-  border-radius: 5px;
-  background: $primary-colour;
-  border: 0px;
-}
+  div.profile-picture {
+    padding: 0px;
+  }
 
-.sidebar {
-    font: 100% $font-family;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 250px;
-    padding: 15px 10px 0 25px;
-    background: #fff;
-    z-index: 1;
-
-    .profile-title {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-
-    span {
-      margin-left: 20px;
-      padding: 5px;
-    }
-
-    p {
-      margin-top: 2px;
-    }
-
-    h1 {
+  .sidebar {
+      font: 100% $font-family;
+      color: $primary-colour;
+      height: 100%;
+      position: fixed;
       margin: 0px;
+      width: 250px;
+      background: $main-blue;
+      z-index: 1;
+      font-style: normal;
+
+      span {
+        padding: 5px;
+        vertical-align: top;
+        margin-right: 20px;
+      }
+
+      h1, h4 {
+        margin: 1px;
+      }
+
+      ul {
+        margin: 2px;
+      }
+      .sidebar-links {
+        font-color: $primary-colour;
+        margin-top: 20px;
+        margin-left: 5px;
+      }
+
+      h2 {
+        margin-top: 10px;
+      }
+  }
+
+  span {
+    display: inline;
+  }
+
+  img.icon {
+    width: 20px;
+    height: 20px;
+    padding: 0px 5px 5px 5px;
+    margin-right: 15px;
+    display: inline;
+  }
+
+  .icon-text {
+    padding: 5px;
+    margin: 0px;
+  }
+
+  p.skill-stack {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar_name {
+    position: absolute;
+    padding: 5px;
+  }
+
+  .profile-picture {
+    margin: 0px;
+    width: 250px;
+    height: 265px;
+    padding: 0px;
+  }
+
+  .container {
+    margin-top: 20px;
+    margin-left: 275px;
+    font: 100% $font-family;
+    width: 60%;
+
+    .card {
+      width: 300px;
+      display: table-cell;
+      margin: 10px;
+      padding-right: 7px;
+
+      h4 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
     }
+  }
 
-    ul {
-      margin: 2px;
-    }
-    .sidebar-links {
-      margin-left: 5px;
-    }
+  section.sidebar {
+    padding: 0px;
+  }
 
-}
-.profile-picture {
-  width: 200x;
-  height: 250px;
-  border-radius: 10px;
-}
+  div.sidebar-text {
+    padding: 10px;
+  }
 
-.container {
-  margin-left: 320px;
-  font: 100% $font-family;
-  width: 900px;
-
-  .card {
-    width: 300px;
-    display: table-cell;
-    margin: 10px;
-    padding-right: 7px;
-
-    h4 {
-      margin-top: 10px;
-      margin-bottom: 5px;
-    }
+  section {
+    background: white;
+    box-shadow: 0 0 5px 2px #e8e8e8;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
     p {
-      margin-top: 5px;
+      margin-left: 70px;
+      margin-right: 40px;
+    }
+
+    h2.title {
+      margin-left: 70px;
+      padding: 0px;
+      margin-right: 40px;
+      color: $main-blue ;
+    }
+
+    .fa-suitcase, .fa-graduation-cap, .fa-project-diagram, .fa-user-astronaut, .fa-graduation-cap {
+      position: absolute;
+      margin-top: 20px;
+      margin-left: 15px;
+      color: $main-grey;
+    }
+  }
+/*PROJECTS*/
+
+  div.projects {
+    margin-top: 16px;
+  }
+
+  .projects {
+    background: white;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+    .project-title {
+      color: $main-grey;
+      margin-top: 1px;
+      margin-bottom: 1px
+    }
+
+    h5 {
+      margin:2px;
+      color: $main-blue;
+    }
+  }
+
+/*  .project-image {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 70px;
+    float: left;
+  }*/
+
+
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: 50%;
+  margin-left: 10px;
+  margin-right: 30px;
+
+  img {
+    max-width: 100%;
+  }
+
+  .hrvbox-bottom-layer {
+  display: block;
+  }
+
+  .hvrbox-on-hover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  .hvrbox-text {
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+
+    p {
+      margin-left: 0px;
+    }
+    h3 {
+      color: $primary-colour
     }
   }
 }
 
-.projects {
-  display: block;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.hvrbox:hover .hvrbox-on-hover {
+  opacity: 1;
+}
 
-
-  .project-title {
-    margin-top: 1px;
-    margin-bottom: 1px
+div.eckgo {
+  /*height: 300px;*/
+}
+/*EDUCATION SECTION*/
+  .education {
+    h4 {
+      margin-bottom: 5px;
+      color: $main-grey;
+    }
+    h5 {
+      margin: 2px;
+      margin-left: 0px;
+      color: $main-blue;
+    }
+    div.education-type {
+      margin-left: 70px;
+      margin-right: 40px;
+    }
+  }
+/*EXPERIENCE SECTION*/
+  .experience {
+    i {
+      padding-right: 5px;
+    }
+    h4 {
+      margin-bottom: 5px;
+      color: $main-grey;
+    }
+    div.work-experience {
+      margin-left: 70px;
+      margin-right: 40px;
+    }
+    .fa-map-marker-alt, .fa-calendar-alt {
+      color: $main-grey;
+    }
   }
 
-  h5 {
-    margin:2px;
+  .education-list {
+    margin-top: 20px;
   }
-}
 
-.project-image {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  float: left;
-}
-
-.education {
-  h4 {
-    margin-bottom: 2px;
+  .education-title {
+    margin-top: 0px;
+    margin-bottom: 0px
   }
-  h5 {
-    margin: 2px;
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    list-style-position: outside;
+    margin-top: 2px;
   }
-}
 
-.experience {
-  i {
-    padding-right: 5px;
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
   }
-  h4 {
-    margin-bottom: 5px;
+
+
+  li::before {
+    content: "•";
+    padding-right: 10px;
+    color: $main-blue;
   }
-}
 
-
-ul {
-  list-style: none;
-  padding-left: 0px;
-  list-style-position: outside;
-  margin-top: 2px;
-}
-
-li {
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-
-li::before {
-  content: "•";
-  padding-right: 10px;
-  color: $primary-colour;
-}
-
-h5.job-sum {
-  display: inline;
-}
+  h5.job-sum {
+    display: inline;
+    color: $main-blue;
+  }
