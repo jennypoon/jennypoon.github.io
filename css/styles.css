@@ -191,9 +191,9 @@ div.projects {
   transition: all 0.4s ease-in-out 0s;
 }
 .hvrbox .hvrbox-text {
-  font-size: 18px;
   display: inline-block;
   position: absolute;
+  padding-right: 8px;
 }
 .hvrbox .hvrbox-text p {
   margin-left: 0px;
