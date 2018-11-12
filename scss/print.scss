@@ -7,9 +7,11 @@
     background-color:  #f2f2f2;
     a {
       text-decoration: none;
-      color: white;
+      color: black;
       width: 100%;
     }
+
+    margin: 0mm
   }
 
   .title, h4.summary {
@@ -25,8 +27,8 @@
 
   .sidebar {
       font: 100% $font-family;
-      color: $primary-colour;
-      height: 100%;
+      color: black;
+      height: 97.5%;
       position: fixed;
       margin: 0px;
       width: 250px;
@@ -36,8 +38,9 @@
 
       span {
         padding: 5px;
+        padding-left: 0px;
         vertical-align: top;
-        margin-right: 20px;
+        margin-right: 10px;
       }
 
       h1, h4 {
@@ -48,9 +51,10 @@
         margin: 2px;
       }
       .sidebar-links {
-        font-color: $primary-colour;
+        font-color: black;
         margin-top: 20px;
         margin-left: 5px;
+        background-color: $main-blue;
       }
 
       h2 {
@@ -58,12 +62,12 @@
       }
   }
 
-  span {
+  span.icon-print {
     display: inline;
   }
 
-  span.icon-print {
-    display: none;
+  span {
+    display: inline;
   }
 
   img.icon {
@@ -71,12 +75,14 @@
     height: 20px;
     padding: 0px 5px 5px 5px;
     margin-right: 15px;
-    display: inline;
+    display: none;
+    background-color: $main-blue;
   }
 
   .icon-text {
-    padding: 5px;
+    padding: 0px;
     margin: 0px;
+    color: black;
   }
 
   p.skill-stack {
@@ -98,9 +104,9 @@
 
   .container {
     margin-top: 20px;
-    margin-left: 275px;
+    margin-left: 250px;
     font: 100% $font-family;
-    width: 60%;
+    width: 80%;
 
     .card {
       width: 300px;
@@ -125,26 +131,26 @@
 
   section {
     background: white;
-    box-shadow: 0 0 5px 2px #e8e8e8;
-    padding: 5px;
-    margin: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    box-shadow: 0 0 0px 0px #e8e8e8;
+    padding: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
     p {
-      margin-left: 70px;
+      margin-bottom: 5px;
+      margin-left: 10px;
       margin-right: 40px;
     }
 
     h2.title {
-      margin-left: 70px;
+      margin-top: 5px;
+      margin-left: 10px;
       padding: 0px;
-      margin-right: 40px;
       color: $main-blue ;
     }
 
     .fa-suitcase, .fa-graduation-cap, .fa-project-diagram, .fa-user-astronaut, .fa-graduation-cap {
-      position: absolute;
+      display: none;
       margin-top: 20px;
       margin-left: 15px;
       color: $main-grey;
@@ -152,15 +158,15 @@
   }
 /*PROJECTS*/
 
-  div.projects {
-    margin-top: 16px;
-  }
+div.projects {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
 
   .projects {
     background: white;
     display: block;
-    padding-bottom: 10px;
-    padding-top: 5px;
 
     .project-title {
       color: $main-grey;
@@ -174,27 +180,21 @@
     }
   }
 
-/*  .project-image {
-    width: 140px;
-    height: 140px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 70px;
-    float: left;
-  }*/
-
 
 .hvrbox {
   position: relative;
   display: inline-block;
   overflow: hidden;
   max-width: 100%;
-  height: 50%;
+  height: auto;
   margin-left: 10px;
   margin-right: 30px;
 
   img {
-    max-width: 100%;
+    opacity: 0;
+    height: 125px;
+    width: 900px;
+
   }
 
   .hrvbox-bottom-layer {
@@ -202,35 +202,35 @@
   }
 
   .hvrbox-on-hover {
-    opacity: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    padding: 15px;
-    transition: all 0.4s ease-in-out 0s;
+    color: black;
+    /*transition: all 0.4s ease-in-out 0s;*/
   }
 
   .hvrbox-text {
   display: inline-block;
   position: absolute;
   padding-right: 8px;
+  height: auto;
 
     p {
       margin-left: 0px;
+      margin-top: 1px;
     }
     h3 {
-      color: $primary-colour
+      margin-top: 1px;
+      color: $main-grey
     }
   }
 }
 
-.hvrbox:hover .hvrbox-on-hover {
-  opacity: 1;
-}
 
 div.eckgo {
   /*height: 300px;*/
@@ -251,32 +251,35 @@ div.eckgo {
       margin-right: 40px;
     }
   }
-/*EXPERIENCE SECTION*/
-  .experience {
-    i {
-      padding-right: 5px;
-    }
-    h4 {
-      margin-bottom: 5px;
-      color: $main-grey;
-    }
-    div.work-experience {
-      margin-left: 70px;
-      margin-right: 40px;
-    }
-    .fa-map-marker-alt, .fa-calendar-alt {
-      color: $main-grey;
-    }
-  }
 
-  .education-list {
-    margin-top: 20px;
+  div.education-list {
+    margin-top: 2px
   }
 
   .education-title {
     margin-top: 0px;
     margin-bottom: 0px
   }
+/*EXPERIENCE SECTION*/
+  .experience {
+    i {
+      padding-right: 5px;
+    }
+    h4 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: $main-grey;
+    }
+    div.work-experience {
+      margin-left: 20px;
+      margin-right: 40px;
+    }
+    .fa-map-marker-alt, .fa-calendar-alt {
+      color: $main-grey;
+      display: none;
+    }
+  }
+
 
   ul {
     list-style: none;
