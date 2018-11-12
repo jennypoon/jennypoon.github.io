@@ -8,8 +8,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
@@ -46,6 +44,10 @@
               <span class="icon-print">GitHub: </span>
               <span class="icon-text">jennypoon</span>
             </a>
+            <div>
+              <img class="icon" src="images/printer.png">
+              <a href=""><span class="icon-text" onclick="printVersion()">Print Resume</span></a>
+          </div>
         </div>
         <h3 class="skill"> SKILL STACK </h3>
           <div class="card">
@@ -216,40 +218,13 @@
           </div>
         </div>
       </div>
+    </section>
 
-<!--
-
-          <h4>LIGHTHOUSE LABS</h4>
-          <h5>Sept. 2018 - Nov 2018</h5>
-          <ul>Web Development Bootcamp
-            <li>Full-time immersive web development program</li>
-            <li>Consisting of over 500 hours of programming experience</li>
-            <li>Covers topics such as JavaScript, React, Node.js, MongoDB, PostgreSQL, jQuery, HTML, CSS, and SASS.</li>
-          </ul> -->
-       <!--  </div>
-
-        <div class="education-type">
-          <h4>DOUGLAS COLLEGE</h4>
-          <h5>Jan. 2018 - April 2018</h5>
-          <ul> Completion of Document Design Course:
-            <li> Introductory to the basic principles of two-dimensional design</li>
-            <li> Balance and visual dynamics, layout, publication design, and typography </li>
-            <li> Advanced Adobe InDesign Application</li>
-          </ul>
-        </div>
-
-        <div class="education-type">
-          <h4>UNIVERSITY OF BRITISH COLUMBIA</h4>
-          <h5>Sept. 2008 - May 2013</h5>
-          <ul> Bachelors of Science, Major in Chemistry
-            <li>Successful completion of Science Co-op Program</li>
-            <li>President of the UBC Arts and Crafts Club</li>
-            <li>UBC Imagine Day Orientation Leader for three consecutive years</li>
-          </ul>
-          </div> -->
-        </section>
-
-    </main>
-
+  </main>
+  <script>
+  function printVersion() {
+      window.print();
+  }
+  </script>
   </body>
 </html>
