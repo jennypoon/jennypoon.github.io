@@ -52,7 +52,7 @@
       }
       .sidebar-links {
         font-color: black;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-left: 5px;
         background-color: $main-blue;
       }
@@ -65,6 +65,11 @@
   span.icon-print {
     display: inline;
   }
+
+   span.print-text {
+    display: none;
+  }
+
 
   span {
     display: inline;

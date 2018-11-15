@@ -45,7 +45,7 @@ div.profile-picture {
 }
 .sidebar .sidebar-links {
   font-color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 5px;
   background-color: #00a4e8;
 }
@@ -55,6 +55,10 @@ div.profile-picture {
 
 span.icon-print {
   display: inline;
+}
+
+span.print-text {
+  display: none;
 }
 
 span {
