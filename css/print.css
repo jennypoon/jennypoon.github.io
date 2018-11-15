@@ -131,7 +131,7 @@ section {
 }
 section p {
   margin-bottom: 5px;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 40px;
 }
 section h2.title {
@@ -239,6 +239,16 @@ div.education-list {
 .education-title {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.print-edu-date {
+  display: inline;
+  color: #00a4e8;
+  font-size: 12px;
+}
+
+.edu-date {
+  display: none;
 }
 
 /*EXPERIENCE SECTION*/
