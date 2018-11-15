@@ -176,6 +176,7 @@ div.projects {
   height: auto;
   margin-left: 10px;
   margin-right: 30px;
+  border: 0px;
 }
 .hvrbox img {
   opacity: 0;
