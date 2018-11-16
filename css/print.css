@@ -1,7 +1,6 @@
 @charset "UTF-8";
 html {
   background-color: #f2f2f2;
-  margin: 0mm;
 }
 html a {
   text-decoration: none;
@@ -21,7 +20,7 @@ div.profile-picture {
 }
 
 .sidebar {
-  font: 80% "Quicksand", sans-serif;
+  font: 90% "Quicksand", sans-serif;
   color: black;
   height: 95%;
   position: fixed;
