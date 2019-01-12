@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Jenny Poon - Web Developer</title>
+    <title>Jenny Poon - Junior Developer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -25,7 +25,7 @@
       </div>
       <div class="sidebar-text">
         <h1 class="profilepic_name">JENNY POON</h1>
-        <h4 class="profilepic_title">Web Developer</h4>
+        <h4 class="profilepic_title">Jr. Developer</h4>
         <div class="sidebar-links">
           <div>
             <a href="mailto:jenny.poon@live.ca">
@@ -78,13 +78,54 @@
       <section class="section_title">
         <i class="fas fa-user-astronaut fa-2x"></i>
         <h2 class="title">Summary</h2>
-        <p>I am a junior web developer with a STEAM background and an eye for detail. I enjoy the challenges of working in a fast-pace team environment and displays excellent time management and organizational skills. My previous experience in designing marketing material motivated me to pursue a new career path that would allow me to develop interactive design in an ever changing world. With new tools under my belt, I now have a creative outlet to express my active imagination. My mantra to never stop learning pushes my curiosity to explore new technologies.</p>
+        <p>I am a junior developer with a STEAM background and an eye for detail. I enjoy the challenges of working in a fast-pace team environment and displays excellent time management and organizational skills. My previous experience in designing marketing material motivated me to pursue a new career path that would allow me to develop interactive design in an ever changing world. With new tools under my belt, I now have a creative outlet to express my active imagination. My mantra to never stop learning pushes my curiosity to explore new technologies.</p>
       </section>
 
       <section class="projects">
         <i class="fas fa-project-diagram fa-2x"></i>
         <h2 class="title">Projects</h2>
         <div class="projects">
+
+          <div class="hvrbox">
+            <a href="https://lhlwesource.herokuapp.com/" target="_blank">
+            <img src="images/wesource-hvrbox.png" alt="wesource-screenshot" class="hrvbox-bottom-layer">
+            <div class="hvrbox-on-hover">
+              <div class="hvrbox-text">
+                <h2 class="project-title">WeSource</h2>
+                <h5>Cheerio, EJS, jQuery, AJAX, HTML/CSS/SASS, Bootstrap, Express, PostgresSQL, Knex</h5><br>
+                <ul>
+                  <li>Full stack web application built using RESTful APIs</li>
+                  <li>Publicly share educational resources in a central location</li>
+                  <li>Registered users can add new resources and save resources to their dashboard</li>
+                  <li>Only the user that added the resource can remove it from the site</li>
+                  <li>Future Implementations: Rating System, Reviews, Reporting System</li>
+                  <li>Collaborative project, completed in 4 days; lead back-end and database developer</li>
+                </ul>
+                <!-- <p>A full stack web application built using RESTful APIs to allow users to save resources like tutorials, blogs and videos in a central place that is publicly available. Registered users will be able to add new resources to the application and favourite resources on their dashboard. This was a collaborative project in which I was the lead back-end and database developer and was completed in 4 days. </p> -->
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="hvrbox">
+          <a href="https://whaler.herokuapp.com/" target="_blank">
+            <img src="images/tweeter-hvrbox.png" alt="whaler-screenshot" class="hrvbox-bottom-layer">
+            <div class="hvrbox-on-hover">
+              <div class="hvrbox-text">
+                <h2 class="project-title">Whaler</h2>
+                <h5>HTML/CSS, jQuery, AJAX, Express, MongoDB</h5><br>
+                <ul>
+                  <li>Single page Twitter-inspired web application</li>
+                  <li>Users can post a message under 140 characters and see "whales" (wails) of other users</li>
+                  <li>Validations to prevent blank messages and messages over 140 characters from being posted</li>
+                  <li>Send and retrieve data from the server asynchronously without interfering with the display and behavior of the page</li>
+                  <li>Provided a wireframe and used HTML/CSS/jQuery to replicate</li>
+                </ul><!--
+                <p>A single page Twitter-inspired full stack web application that allows users to post and see the whales/wails of other users. The web application can send and retrieve data from the server asynchronously without interfering with the display and behavior of the page.</p> -->
+              </div>
+            </div>
+            </a>
+          </div>
 
           <div class="hvrbox">
             <a href="https://github.com/jennypoon/exposure" target="_blank">
@@ -108,27 +149,6 @@
         </div>
 
           <div class="hvrbox">
-            <a href="https://lhlwesource.herokuapp.com/" target="_blank">
-            <img src="images/wesource-hvrbox.png" alt="wesource-screenshot" class="hrvbox-bottom-layer">
-            <div class="hvrbox-on-hover">
-              <div class="hvrbox-text">
-                <h2 class="project-title">WeSource</h2>
-                <h5>Cheerio, EJS, jQuery, AJAX, HTML/CSS/SASS, Bootstrap, Express, PostgresSQL, Knex</h5><br>
-                <ul>
-                  <li>Full stack web application built using RESTful APIs</li>
-                  <li>Publicly share educational resources in a central location</li>
-                  <li>Registered users can add new resources and save resources to their dashboard</li>
-                  <li>Only the user that added the resource can remove it from the site</li>
-                  <li>Future Implementations: Rating System, Reviews, Reporting System</li>
-                  <li>Collaborative project, completed in 4 days; lead back-end and database developer</li>
-                </ul>
-                <!-- <p>A full stack web application built using RESTful APIs to allow users to save resources like tutorials, blogs and videos in a central place that is publicly available. Registered users will be able to add new resources to the application and favourite resources on their dashboard. This was a collaborative project in which I was the lead back-end and database developer and was completed in 4 days. </p> -->
-              </div>
-            </div>
-          </a>
-        </div>
-
-          <div class="hvrbox">
             <a href="https://github.com/jennypoon/ChattyApp" target="_blank">
             <div class="eckgo"><img src="images/Eckgo.png" alt="Eckgo-screenshot" class="hrvbox-bottom-layer"></div>
             <div class="hvrbox-on-hover">
@@ -141,25 +161,6 @@
                   <li>Future implementations: Display image in the chat log if message contains an image url</li>
                 </ul>
      <!--            <p>EckGO is an online communication service built using React and WebSocket that allows users on the same server to chat with each other in real-time.  Features includes: total number of connections, notifications of all new connections and disconnections, color assignments for each user, and ability to change display names. </p> -->
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="hvrbox">
-          <a href="https://whaler.herokuapp.com/" target="_blank">
-            <img src="images/tweeter-hvrbox.png" alt="whaler-screenshot" class="hrvbox-bottom-layer">
-            <div class="hvrbox-on-hover">
-              <div class="hvrbox-text">
-                <h2 class="project-title">Whaler</h2>
-                <h5>HTML/CSS, jQuery, AJAX, Express, MongoDB</h5><br>
-                <ul>
-                  <li>Single page Twitter-inspired web application</li>
-                  <li>Users can post a message under 140 characters and see "whales" (wails) of other users</li>
-                  <li>Validations to prevent blank messages and messages over 140 characters from being posted</li>
-                  <li>Send and retrieve data from the server asynchronously without interfering with the display and behavior of the page</li>
-                  <li>Provided a wireframe and used HTML/CSS/jQuery to replicate</li>
-                </ul><!--
-                <p>A single page Twitter-inspired full stack web application that allows users to post and see the whales/wails of other users. The web application can send and retrieve data from the server asynchronously without interfering with the display and behavior of the page.</p> -->
               </div>
             </div>
           </a>
