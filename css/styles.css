@@ -157,9 +157,9 @@ p.skill-stack {
 }
 @media only screen and (max-width: 1024px) {
   .container {
-    margin: 10px;
     position: absolute;
-    width: 90%;
+    width: 98.8%;
+    margin: 0px;
   }
 }
 .container .card {
@@ -196,6 +196,12 @@ section {
   margin: 5px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  section {
+    margin-left: 0px;
+    max-width: 100%;
+  }
 }
 section p {
   margin-left: 70px;
@@ -270,7 +276,7 @@ div.projects {
   padding-right: 8px;
   height: 100%;
 }
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 850px) {
   .hvrbox .hvrbox-text {
     font-size: 0.8em;
   }

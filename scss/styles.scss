@@ -163,9 +163,9 @@ p.skill-stack {
   width: 70%;
 
   @include bp('tablet-landscape') {
-        margin: 10px;
         position: absolute;
-        width: 90%;
+        width: 98.8%;
+        margin: 0px;
   }
 
   .card {
@@ -204,6 +204,11 @@ section {
   margin: 5px;
   margin-bottom: 20px;
   margin-top: 20px;
+
+    @include bp('tablet-landscape') {
+      margin-left: 0px;
+      max-width: 100%;
+  }
 
   p {
     margin-left: 70px;
@@ -288,7 +293,7 @@ img {
   padding-right: 8px;
   height: 100%;
 
-   @media only screen and (max-width: 1250px) {
+   @media only screen and (max-width: 850px) {
     font-size: 0.8em;
     }
 
