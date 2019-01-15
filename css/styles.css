@@ -76,11 +76,21 @@ div.profile-picture {
 }
 @media only screen and (max-width: 1024px) {
   .sidebar .sidebar-links {
+    margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
     float: left;
     width: 30%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .sidebar .sidebar-links {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
   }
 }
 .sidebar h2 {
@@ -106,24 +116,10 @@ img.icon {
   margin-right: 15px;
   display: inline;
 }
-@media only screen and (max-width: 576px) {
-  img.icon {
-    width: 15px;
-    height: 15px;
-    padding: 0px 0px 9px 0px;
-    margin-right: 5px;
-    display: inline;
-  }
-}
 
 .icon-text {
   padding: 5px;
   margin: 0px;
-}
-@media only screen and (max-width: 576px) {
-  .icon-text {
-    font-size: 0.8em;
-  }
 }
 
 p.skill-stack {
@@ -234,14 +230,6 @@ div.projects {
   color: #00a4e8;
 }
 
-/*  .project-image {
-  width: 140px;
-  height: 140px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 70px;
-  float: left;
-}*/
 .hvrbox {
   position: relative;
   display: inline-block;
