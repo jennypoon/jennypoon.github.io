@@ -153,7 +153,7 @@ p.skill-stack {
   margin-top: 20px;
   margin-left: 275px;
   font: 100% "Quicksand", sans-serif;
-  width: 60%;
+  width: 70%;
 }
 @media only screen and (max-width: 1024px) {
   .container {
@@ -240,7 +240,7 @@ div.projects {
   display: inline-block;
   overflow: hidden;
   max-width: 100%;
-  height: 50%;
+  max-height: 50%;
   margin-left: 10px;
   margin-right: 30px;
   border: 1px solid #808080;
@@ -264,9 +264,16 @@ div.projects {
   transition: all 0.4s ease-in-out 0s;
 }
 .hvrbox .hvrbox-text {
+  font-size: 1em;
   display: inline-block;
   position: absolute;
   padding-right: 8px;
+  height: 100%;
+}
+@media only screen and (max-width: 1250px) {
+  .hvrbox .hvrbox-text {
+    font-size: 0.85em;
+  }
 }
 .hvrbox .hvrbox-text p {
   margin-left: 0px;
