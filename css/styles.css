@@ -18,6 +18,27 @@ html a {
 div.profile-picture {
   padding: 0px;
 }
+@media only screen and (max-width: 1024px) {
+  div.profile-picture {
+    position: absolute;
+    width: 100%;
+    right: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .profilepic_title {
+    text-align: left;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .profilepic_name {
+    text-align: left;
+    font-size: 35px;
+  }
+}
 
 .sidebar {
   font: 90% "Quicksand", sans-serif;
@@ -29,6 +50,13 @@ div.profile-picture {
   background: #00a4e8;
   z-index: 1;
   font-style: normal;
+}
+@media only screen and (max-width: 1024px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    right: auto;
+  }
 }
 .sidebar span {
   padding: 5px;
@@ -45,6 +73,15 @@ div.profile-picture {
   font-color: #FFF;
   margin-top: 10px;
   margin-left: 5px;
+}
+@media only screen and (max-width: 1024px) {
+  .sidebar .sidebar-links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    float: left;
+    width: 30%;
+  }
 }
 .sidebar h2 {
   margin-top: 10px;
@@ -69,10 +106,24 @@ img.icon {
   margin-right: 15px;
   display: inline;
 }
+@media only screen and (max-width: 576px) {
+  img.icon {
+    width: 15px;
+    height: 15px;
+    padding: 0px 0px 9px 0px;
+    margin-right: 5px;
+    display: inline;
+  }
+}
 
 .icon-text {
   padding: 5px;
   margin: 0px;
+}
+@media only screen and (max-width: 576px) {
+  .icon-text {
+    font-size: 0.8em;
+  }
 }
 
 p.skill-stack {
@@ -91,12 +142,24 @@ p.skill-stack {
   height: 265px;
   padding: 0px;
 }
+@media only screen and (max-width: 1024px) {
+  .profile-picture {
+    display: none;
+  }
+}
 
 .container {
   margin-top: 20px;
   margin-left: 275px;
   font: 100% "Quicksand", sans-serif;
   width: 60%;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin: 10px;
+    position: absolute;
+    width: 100%;
+  }
 }
 .container .card {
   width: 300px;
@@ -115,6 +178,14 @@ section.sidebar {
 
 div.sidebar-text {
   padding: 10px;
+}
+@media only screen and (max-width: 1024px) {
+  div.sidebar-text {
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    right: auto;
+  }
 }
 
 section {
@@ -164,13 +235,13 @@ div.projects {
 }
 
 /*  .project-image {
-    width: 140px;
-    height: 140px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 70px;
-    float: left;
-  }*/
+  width: 140px;
+  height: 140px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 70px;
+  float: left;
+}*/
 .hvrbox {
   position: relative;
   display: inline-block;
