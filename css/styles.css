@@ -126,6 +126,11 @@ p.skill-stack {
   margin: 0px;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 1024px) {
+  p.skill-stack {
+    width: 90%;
+  }
+}
 
 .sidebar_name {
   position: absolute;
@@ -154,7 +159,7 @@ p.skill-stack {
   .container {
     margin: 10px;
     position: absolute;
-    width: 100%;
+    width: 90%;
   }
 }
 .container .card {

@@ -133,6 +133,10 @@ img.icon {
 p.skill-stack {
   margin: 0px;
   margin-bottom: 10px;
+
+  @include bp('tablet-landscape') {
+    width: 90%;
+  }
 }
 
 .sidebar_name {
@@ -161,7 +165,7 @@ p.skill-stack {
   @include bp('tablet-landscape') {
         margin: 10px;
         position: absolute;
-        width: 100%;
+        width: 90%;
   }
 
 
