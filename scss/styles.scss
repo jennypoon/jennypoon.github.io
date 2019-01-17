@@ -205,7 +205,7 @@ section {
   margin-bottom: 20px;
   margin-top: 20px;
 
-    @include bp('tablet-landscape') {
+  @include bp('tablet-landscape') {
       margin-left: 0px;
       max-width: 100%;
   }
@@ -265,6 +265,10 @@ div.projects {
   margin-right: 30px;
   border: 1px solid $main-grey;
 
+  @include bp('phone-xlarge') {
+    height: 250px;
+  };
+
 img {
   max-width: 100%;
 }
@@ -284,6 +288,10 @@ img {
   color: #fff;
   padding: 15px;
   transition: all 0.4s ease-in-out 0s;
+
+  @include bp('phone-xlarge') {
+    opacity: 1;
+  };
 }
 
 .hvrbox-text {
