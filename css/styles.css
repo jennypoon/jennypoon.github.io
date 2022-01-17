@@ -8,7 +8,8 @@ html a {
   width: 100%;
 }
 
-.title, h4.summary {
+.title,
+h4.summary {
   margin-bottom: 0px;
   margin-left: 0px;
   padding: 5px;
@@ -42,10 +43,10 @@ div.profile-picture {
 
 .sidebar {
   font: 90% "Quicksand", sans-serif;
-  color: #FFF;
+  color: #fff;
   height: 100%;
   position: fixed;
-  margin: 0px;
+  margin: -20px 0px 0px 0px;
   width: 250px;
   background: #00a4e8;
   z-index: 1;
@@ -63,14 +64,15 @@ div.profile-picture {
   vertical-align: top;
   margin-right: 20px;
 }
-.sidebar h1, .sidebar h4 {
+.sidebar h1,
+.sidebar h4 {
   margin: 1px;
 }
 .sidebar ul {
   margin: 2px;
 }
 .sidebar .sidebar-links {
-  font-color: #FFF;
+  font-color: #fff;
   margin-top: 10px;
   margin-left: 5px;
 }
@@ -115,11 +117,6 @@ img.icon {
   padding: 0px 5px 5px 5px;
   margin-right: 15px;
   display: inline;
-}
-
-.icon-text {
-  padding: 5px;
-  margin: 0px;
 }
 
 p.skill-stack {
@@ -213,7 +210,11 @@ section h2.title {
   margin-right: 40px;
   color: #00a4e8;
 }
-section .fa-suitcase, section .fa-graduation-cap, section .fa-project-diagram, section .fa-user-astronaut, section .fa-graduation-cap {
+section .fa-suitcase,
+section .fa-graduation-cap,
+section .fa-project-diagram,
+section .fa-user-astronaut,
+section .fa-graduation-cap {
   position: absolute;
   margin-top: 20px;
   margin-left: 15px;
@@ -232,7 +233,7 @@ div.projects {
   padding-top: 5px;
 }
 .projects .project-title {
-  color: #FFF;
+  color: #fff;
   margin-top: 1px;
   margin-bottom: 1px;
 }
@@ -295,7 +296,7 @@ div.projects {
   margin-left: 0px;
 }
 .hvrbox .hvrbox-text h3 {
-  color: #FFF;
+  color: #fff;
 }
 
 .hvrbox:hover .hvrbox-on-hover {
@@ -333,7 +334,8 @@ div.eckgo {
   margin-left: 70px;
   margin-right: 40px;
 }
-.experience .fa-map-marker-alt, .experience .fa-calendar-alt {
+.experience .fa-map-marker-alt,
+.experience .fa-calendar-alt {
   color: #808080;
 }
 

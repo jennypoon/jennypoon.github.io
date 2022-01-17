@@ -8,7 +8,8 @@ html a {
   width: 100%;
 }
 
-.title, h4.summary {
+.title,
+h4.summary {
   margin-bottom: 0px;
   margin-left: 0px;
   padding: 5px;
@@ -36,7 +37,8 @@ div.profile-picture {
   vertical-align: top;
   margin-right: 10px;
 }
-.sidebar h1, .sidebar h4 {
+.sidebar h1,
+.sidebar h4 {
   margin: 1px;
 }
 .sidebar ul {
@@ -53,11 +55,7 @@ div.profile-picture {
 }
 
 span.icon-print {
-  display: inline;
-}
-
-span.print-text {
-  display: none;
+  display: block;
 }
 
 span {
@@ -71,12 +69,6 @@ img.icon {
   margin-right: 15px;
   display: none;
   background-color: #00a4e8;
-}
-
-.icon-text {
-  padding: 0px;
-  margin: 0px;
-  color: black;
 }
 
 p.skill-stack {
@@ -139,7 +131,11 @@ section h2.title {
   padding: 0px;
   color: #00a4e8;
 }
-section .fa-suitcase, section .fa-graduation-cap, section .fa-project-diagram, section .fa-user-astronaut, section .fa-graduation-cap {
+section .fa-suitcase,
+section .fa-graduation-cap,
+section .fa-project-diagram,
+section .fa-user-astronaut,
+section .fa-graduation-cap {
   display: none;
   margin-top: 20px;
   margin-left: 15px;
@@ -263,7 +259,8 @@ div.education-list {
   margin-left: 20px;
   margin-right: 40px;
 }
-.experience .fa-map-marker-alt, .experience .fa-calendar-alt {
+.experience .fa-map-marker-alt,
+.experience .fa-calendar-alt {
   color: #808080;
   display: none;
 }

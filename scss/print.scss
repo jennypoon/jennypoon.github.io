@@ -1,164 +1,159 @@
-  $font-family: 'Quicksand', sans-serif;
-  $primary-colour: #FFF;
-  $main-blue: #00a4e8;
-  $main-grey: #808080;
+$font-family: "Quicksand", sans-serif;
+$primary-colour: #fff;
+$main-blue: #00a4e8;
+$main-grey: #808080;
 
-  html {
-    background-color:  #f2f2f2;
-    a {
-      text-decoration: none;
-      color: black;
-      width: 100%;
-    }
+html {
+  background-color: #f2f2f2;
+  a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
   }
+}
 
-  .title, h4.summary {
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding: 5px;
-    border-radius: 5px;
-  }
+.title,
+h4.summary {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
 
-  div.profile-picture {
-    padding: 0px;
-  }
+div.profile-picture {
+  padding: 0px;
+}
 
-  .sidebar {
-      font: 90% $font-family;
-      color: black;
-      height: 95%;
-      position: fixed;
-      margin: 0px;
-      width: 250px;
-      background: $main-blue;
-      z-index: 1;
-      font-style: normal;
-
-      span {
-        padding: 5px;
-        padding-left: 0px;
-        vertical-align: top;
-        margin-right: 10px;
-      }
-
-      h1, h4 {
-        margin: 1px;
-      }
-
-      ul {
-        margin: 2px;
-      }
-      .sidebar-links {
-        font-color: black;
-        margin-top: 10px;
-        margin-left: 5px;
-        background-color: $main-blue;
-      }
-
-      h2 {
-        margin-top: 10px;
-      }
-  }
-
-  span.icon-print {
-    display: inline;
-  }
-
-   span.print-text {
-    display: none;
-  }
-
+.sidebar {
+  font: 90% $font-family;
+  color: black;
+  height: 95%;
+  position: fixed;
+  margin: 0px;
+  width: 250px;
+  background: $main-blue;
+  z-index: 1;
+  font-style: normal;
 
   span {
-    display: inline;
+    padding: 5px;
+    padding-left: 0px;
+    vertical-align: top;
+    margin-right: 10px;
   }
 
-  img.icon {
-    width: 20px;
-    height: 20px;
-    padding: 0px 5px 5px 5px;
-    margin-right: 15px;
-    display: none;
+  h1,
+  h4 {
+    margin: 1px;
+  }
+
+  ul {
+    margin: 2px;
+  }
+  .sidebar-links {
+    font-color: black;
+    margin-top: 10px;
+    margin-left: 5px;
     background-color: $main-blue;
   }
 
-  .icon-text {
-    padding: 0px;
-    margin: 0px;
-    color: black;
-  }
-
-  p.skill-stack {
-    margin: 0px;
-    margin-bottom: 10px;
-  }
-
-  .sidebar_name {
-    position: absolute;
-    padding: 5px;
-  }
-
-  .profile-picture {
-    margin: 0px;
-    width: 250px;
-    height: 265px;
-    padding: 0px;
-  }
-
-  .container {
-    margin-top: 20px;
-    margin-left: 250px;
-    font: 80% $font-family;
-    width: 80%;
-
-    .card {
-      width: 300px;
-      display: table-cell;
-      margin: 10px;
-      padding-right: 7px;
-
-      h4 {
-        margin-top: 10px;
-        margin-bottom: 5px;
-      }
-    }
-  }
-
-  section.sidebar {
-    padding: 0px;
-  }
-
-  div.sidebar-text {
-    padding: 10px;
-  }
-
-  section {
-    background: white;
-    box-shadow: 0 0 0px 0px #e8e8e8;
-    padding: 2px;
-    margin-bottom: 10px;
+  h2 {
     margin-top: 10px;
+  }
+}
 
-    p {
+span.icon-print {
+  display: block;
+}
+
+span {
+  display: inline;
+}
+
+img.icon {
+  width: 20px;
+  height: 20px;
+  padding: 0px 5px 5px 5px;
+  margin-right: 15px;
+  display: none;
+  background-color: $main-blue;
+}
+
+p.skill-stack {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.sidebar_name {
+  position: absolute;
+  padding: 5px;
+}
+
+.profile-picture {
+  margin: 0px;
+  width: 250px;
+  height: 265px;
+  padding: 0px;
+}
+
+.container {
+  margin-top: 20px;
+  margin-left: 250px;
+  font: 80% $font-family;
+  width: 80%;
+
+  .card {
+    width: 300px;
+    display: table-cell;
+    margin: 10px;
+    padding-right: 7px;
+
+    h4 {
+      margin-top: 10px;
       margin-bottom: 5px;
-      margin-left: 20px;
-      margin-right: 40px;
-    }
-
-    h2.title {
-      margin-top: 5px;
-      margin-left: 10px;
-      padding: 0px;
-      color: $main-blue ;
-    }
-
-    .fa-suitcase, .fa-graduation-cap, .fa-project-diagram, .fa-user-astronaut, .fa-graduation-cap {
-      display: none;
-      margin-top: 20px;
-      margin-left: 15px;
-      color: $main-grey;
     }
   }
+}
+
+section.sidebar {
+  padding: 0px;
+}
+
+div.sidebar-text {
+  padding: 10px;
+}
+
+section {
+  background: white;
+  box-shadow: 0 0 0px 0px #e8e8e8;
+  padding: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  p {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+
+  h2.title {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0px;
+    color: $main-blue;
+  }
+
+  .fa-suitcase,
+  .fa-graduation-cap,
+  .fa-project-diagram,
+  .fa-user-astronaut,
+  .fa-graduation-cap {
+    display: none;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: $main-grey;
+  }
+}
 /*PROJECTS*/
 
 div.projects {
@@ -167,22 +162,21 @@ div.projects {
   padding-bottom: 0px;
 }
 
-  .projects {
-    background: white;
-    display: block;
+.projects {
+  background: white;
+  display: block;
 
-    .project-title {
-      color: $main-grey;
-      margin-top: 1px;
-      margin-bottom: 1px
-    }
-
-    h5 {
-      margin:2px;
-      color: $main-blue;
-    }
+  .project-title {
+    color: $main-grey;
+    margin-top: 1px;
+    margin-bottom: 1px;
   }
 
+  h5 {
+    margin: 2px;
+    color: $main-blue;
+  }
+}
 
 .hvrbox {
   position: relative;
@@ -194,16 +188,14 @@ div.projects {
   margin-right: 30px;
   border: 0px;
 
-
   img {
     opacity: 0;
     height: 125px;
     width: 900px;
-
   }
 
   .hrvbox-bottom-layer {
-  display: block;
+    display: block;
   }
 
   .hvrbox-on-hover {
@@ -220,10 +212,10 @@ div.projects {
   }
 
   .hvrbox-text {
-  display: inline-block;
-  position: absolute;
-  padding-right: 8px;
-  height: auto;
+    display: inline-block;
+    position: absolute;
+    padding-right: 8px;
+    height: auto;
 
     p {
       margin-left: 0px;
@@ -231,91 +223,89 @@ div.projects {
     }
     h3 {
       margin-top: 1px;
-      color: $main-grey
+      color: $main-grey;
     }
   }
 }
-
 
 div.eckgo {
   /*height: 300px;*/
 }
 /*EDUCATION SECTION*/
-  .education {
-    h4 {
-      margin-bottom: 5px;
-      color: $main-grey;
-    }
-    h5 {
-      margin: 2px;
-      margin-left: 0px;
-      color: $main-blue;
-    }
-    div.education-type {
-      margin-left: 70px;
-      margin-right: 40px;
-    }
+.education {
+  h4 {
+    margin-bottom: 5px;
+    color: $main-grey;
   }
-
-  div.education-list {
-    margin-top: 2px
-  }
-
-  .education-title {
-    margin-top: 0px;
-    margin-bottom: 0px
-  }
-
-  .print-edu-date {
-    display: inline;
+  h5 {
+    margin: 2px;
+    margin-left: 0px;
     color: $main-blue;
-    font-size: 12px;
   }
+  div.education-type {
+    margin-left: 70px;
+    margin-right: 40px;
+  }
+}
 
-  .edu-date {
+div.education-list {
+  margin-top: 2px;
+}
+
+.education-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.print-edu-date {
+  display: inline;
+  color: $main-blue;
+  font-size: 12px;
+}
+
+.edu-date {
+  display: none;
+}
+/*EXPERIENCE SECTION*/
+.experience {
+  i {
+    padding-right: 5px;
+  }
+  h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: $main-grey;
+  }
+  div.work-experience {
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+  .fa-map-marker-alt,
+  .fa-calendar-alt {
+    color: $main-grey;
     display: none;
   }
-/*EXPERIENCE SECTION*/
-  .experience {
-    i {
-      padding-right: 5px;
-    }
-    h4 {
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: $main-grey;
-    }
-    div.work-experience {
-      margin-left: 20px;
-      margin-right: 40px;
-    }
-    .fa-map-marker-alt, .fa-calendar-alt {
-      color: $main-grey;
-      display: none;
-    }
-  }
+}
 
+ul {
+  list-style: none;
+  padding-left: 0px;
+  list-style-position: outside;
+  margin-top: 2px;
+}
 
-  ul {
-    list-style: none;
-    padding-left: 0px;
-    list-style-position: outside;
-    margin-top: 2px;
-  }
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
 
-  li {
-    padding-left: 1em;
-    text-indent: -1em;
-  }
+li::before {
+  content: "•";
+  padding-right: 10px;
+  color: $main-blue;
+}
 
-
-  li::before {
-    content: "•";
-    padding-right: 10px;
-    color: $main-blue;
-  }
-
-  h5.job-sum {
-    display: inline;
-    color: $main-blue;
-  }
+h5.job-sum {
+  display: inline;
+  color: $main-blue;
+}

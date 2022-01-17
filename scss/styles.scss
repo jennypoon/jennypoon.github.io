@@ -1,12 +1,12 @@
-@import 'includes/_mixins';
+@import "includes/_mixins";
 
-$font-family: 'Quicksand', sans-serif;
-$primary-colour: #FFF;
+$font-family: "Quicksand", sans-serif;
+$primary-colour: #fff;
 $main-blue: #00a4e8;
 $main-grey: #808080;
 
 html {
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
   a {
     text-decoration: none;
     color: white;
@@ -14,7 +14,8 @@ html {
   }
 }
 
-.title, h4.summary {
+.title,
+h4.summary {
   margin-bottom: 0px;
   margin-left: 0px;
   padding: 5px;
@@ -24,88 +25,88 @@ html {
 div.profile-picture {
   padding: 0px;
 
-  @include bp('tablet-landscape') {
-        position: absolute;
-        width: 100%;
-        right: auto;
-      }
-
+  @include bp("tablet-landscape") {
+    position: absolute;
+    width: 100%;
+    right: auto;
+  }
 }
 
 .profilepic_title {
-    @include bp('tablet-landscape') {
-        text-align: left;
-        font-size: 25px;
-      }
+  @include bp("tablet-landscape") {
+    text-align: left;
+    font-size: 25px;
+  }
 }
 
 .profilepic_name {
-    @include bp('tablet-landscape') {
-        text-align: left;
-        font-size: 35px;
-      }
+  @include bp("tablet-landscape") {
+    text-align: left;
+    font-size: 35px;
+  }
 }
 .sidebar {
-    font: 90% $font-family;
-    color: $primary-colour;
-    height: 100%;
-    position: fixed;
-    margin: 0px;
-    width: 250px;
-    background: $main-blue;
-    z-index: 1;
-    font-style: normal;
+  font: 90% $font-family;
+  color: $primary-colour;
+  height: 100%;
+  position: fixed;
+  margin: -20px 0px 0px 0px;
+  width: 250px;
+  background: $main-blue;
+  z-index: 1;
+  font-style: normal;
 
-    @include bp('tablet-landscape') {
-        position: relative;
-        width: 100%;
-        right: auto;
-      }
+  @include bp("tablet-landscape") {
+    position: relative;
+    width: 100%;
+    right: auto;
+  }
 
-    span {
-      padding: 5px;
-      vertical-align: top;
-      margin-right: 20px;
+  span {
+    padding: 5px;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+
+  h1,
+  h4 {
+    margin: 1px;
+  }
+
+  ul {
+    margin: 2px;
+  }
+  .sidebar-links {
+    font-color: $primary-colour;
+    margin-top: 10px;
+    margin-left: 5px;
+
+    @include bp("tablet-landscape") {
+      margin-left: 0px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: left;
+      float: left;
+      width: 30%;
     }
 
-    h1, h4 {
-      margin: 1px;
+    @include bp("phone-xlarge") {
+      margin-left: 0px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: left;
+      width: 100%;
     }
+  }
 
-    ul {
-      margin: 2px;
-    }
-    .sidebar-links {
-      font-color: $primary-colour;
-      margin-top: 10px;
-      margin-left: 5px;
+  h2 {
+    margin-top: 10px;
+  }
 
-        @include bp('tablet-landscape') {
-          margin-left: 0px;
-          margin-top: 20px;
-          margin-bottom: 20px;
-          text-align: left;
-          float: left;
-          width: 30%;
-      }
-
-        @include bp('phone-xlarge') {
-          margin-left: 0px;
-          margin-top: 20px;
-          margin-bottom: 20px;
-          text-align: left;
-          width: 100%;
-      }
-    }
-
-    h2 {
-      margin-top: 10px;
-    }
-
-    h3.skill {
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
+  h3.skill {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 
 span {
@@ -122,19 +123,13 @@ img.icon {
   padding: 0px 5px 5px 5px;
   margin-right: 15px;
   display: inline;
-
-}
-
-.icon-text {
-  padding: 5px;
-  margin: 0px;
 }
 
 p.skill-stack {
   margin: 0px;
   margin-bottom: 10px;
 
-  @include bp('tablet-landscape') {
+  @include bp("tablet-landscape") {
     width: 90%;
   }
 }
@@ -150,10 +145,9 @@ p.skill-stack {
   height: 265px;
   padding: 0px;
 
-  @include bp('tablet-landscape') {
+  @include bp("tablet-landscape") {
     display: none;
   }
-
 }
 
 .container {
@@ -162,10 +156,10 @@ p.skill-stack {
   font: 100% $font-family;
   width: 70%;
 
-  @include bp('tablet-landscape') {
-        position: absolute;
-        width: 98.8%;
-        margin: 0px;
+  @include bp("tablet-landscape") {
+    position: absolute;
+    width: 98.8%;
+    margin: 0px;
   }
 
   .card {
@@ -173,7 +167,6 @@ p.skill-stack {
     display: table-cell;
     margin: 10px;
     padding-right: 7px;
-
 
     h4 {
       margin-top: 10px;
@@ -189,7 +182,7 @@ section.sidebar {
 div.sidebar-text {
   padding: 10px;
 
-  @include bp('tablet-landscape') {
+  @include bp("tablet-landscape") {
     margin-top: 0px;
     position: relative;
     width: 100%;
@@ -205,9 +198,9 @@ section {
   margin-bottom: 20px;
   margin-top: 20px;
 
-  @include bp('tablet-landscape') {
-      margin-left: 0px;
-      max-width: 100%;
+  @include bp("tablet-landscape") {
+    margin-left: 0px;
+    max-width: 100%;
   }
 
   p {
@@ -219,10 +212,14 @@ section {
     margin-left: 70px;
     padding: 0px;
     margin-right: 40px;
-    color: $main-blue ;
+    color: $main-blue;
   }
 
-  .fa-suitcase, .fa-graduation-cap, .fa-project-diagram, .fa-user-astronaut, .fa-graduation-cap {
+  .fa-suitcase,
+  .fa-graduation-cap,
+  .fa-project-diagram,
+  .fa-user-astronaut,
+  .fa-graduation-cap {
     position: absolute;
     margin-top: 20px;
     margin-left: 15px;
@@ -233,7 +230,6 @@ section {
 
 div.projects {
   margin-top: 16px;
-
 }
 
 .projects {
@@ -245,15 +241,14 @@ div.projects {
   .project-title {
     color: $primary-colour;
     margin-top: 1px;
-    margin-bottom: 1px
+    margin-bottom: 1px;
   }
 
   h5 {
-    margin:2px;
+    margin: 2px;
     color: $main-blue;
   }
 }
-
 
 .hvrbox {
   position: relative;
@@ -265,61 +260,61 @@ div.projects {
   margin-right: 30px;
   border: 1px solid $main-grey;
 
-  @include bp('phone-xlarge') {
+  @include bp("phone-xlarge") {
     height: 250px;
-  };
+  }
 
-img {
-  max-width: 100%;
-}
+  img {
+    max-width: 100%;
+  }
 
-.hrvbox-bottom-layer {
-  display: block;
-}
+  .hrvbox-bottom-layer {
+    display: block;
+  }
 
-.hvrbox-on-hover {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  padding: 15px;
-  transition: all 0.4s ease-in-out 0s;
+  .hvrbox-on-hover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 15px;
+    transition: all 0.4s ease-in-out 0s;
 
-  @include bp('phone-xlarge') {
-    opacity: 1;
-  };
-}
+    @include bp("phone-xlarge") {
+      opacity: 1;
+    }
+  }
 
-.hvrbox-text {
-  font-size: 1em;
-  display: inline-block;
-  position: absolute;
-  padding-right: 8px;
-  height: 100%;
+  .hvrbox-text {
+    font-size: 1em;
+    display: inline-block;
+    position: absolute;
+    padding-right: 8px;
+    height: 100%;
 
-   @media only screen and (max-width: 850px) {
-    font-size: 0.8em;
+    @media only screen and (max-width: 850px) {
+      font-size: 0.8em;
     }
 
-  p {
-    margin-left: 0px;
+    p {
+      margin-left: 0px;
+    }
+    h3 {
+      color: $primary-colour;
+    }
   }
-  h3 {
-    color: $primary-colour
-  }
-}
 }
 
 .hvrbox:hover .hvrbox-on-hover {
-opacity: 1;
+  opacity: 1;
 }
 
 div.eckgo {
-/*height: 300px;*/
+  /*height: 300px;*/
 }
 /*EDUCATION SECTION*/
 .education {
@@ -350,7 +345,8 @@ div.eckgo {
     margin-left: 70px;
     margin-right: 40px;
   }
-  .fa-map-marker-alt, .fa-calendar-alt {
+  .fa-map-marker-alt,
+  .fa-calendar-alt {
     color: $main-grey;
   }
 }
@@ -361,7 +357,7 @@ div.eckgo {
 
 .education-title {
   margin-top: 0px;
-  margin-bottom: 0px
+  margin-bottom: 0px;
 }
 
 .print-edu-date {
@@ -379,7 +375,6 @@ li {
   padding-left: 1em;
   text-indent: -1em;
 }
-
 
 li::before {
   content: "•";
