@@ -87,7 +87,8 @@ div.profile-picture {
       margin-bottom: 20px;
       text-align: left;
       float: left;
-      width: 30%;
+      width: 100%;
+      display: block;
     }
 
     @include bp("phone-xlarge") {
@@ -130,7 +131,7 @@ p.skill-stack {
   margin-bottom: 10px;
 
   @include bp("tablet-landscape") {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -162,6 +163,11 @@ p.skill-stack {
     margin: 0px;
   }
 
+  @include bp("phone-xlarge") {
+    width: 100%;
+    margin: 0px;
+  }
+
   .card {
     width: 300px;
     display: table-cell;
@@ -185,7 +191,6 @@ div.sidebar-text {
   @include bp("tablet-landscape") {
     margin-top: 0px;
     position: relative;
-    width: 100%;
     right: auto;
   }
 }
@@ -197,6 +202,10 @@ section {
   margin: 5px;
   margin-bottom: 20px;
   margin-top: 20px;
+
+  @include bp("phone-xlarge") {
+    margin: 0px;
+  }
 
   @include bp("tablet-landscape") {
     margin-left: 0px;
@@ -344,6 +353,10 @@ div.eckgo {
   div.work-experience {
     margin-left: 70px;
     margin-right: 40px;
+    @include bp("tablet-landscape") {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
   .fa-map-marker-alt,
   .fa-calendar-alt {

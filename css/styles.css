@@ -83,7 +83,8 @@ div.profile-picture {
     margin-bottom: 20px;
     text-align: left;
     float: left;
-    width: 30%;
+    width: 100%;
+    display: block;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -125,7 +126,7 @@ p.skill-stack {
 }
 @media only screen and (max-width: 1024px) {
   p.skill-stack {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -159,6 +160,12 @@ p.skill-stack {
     margin: 0px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    margin: 0px;
+  }
+}
 .container .card {
   width: 300px;
   display: table-cell;
@@ -181,7 +188,6 @@ div.sidebar-text {
   div.sidebar-text {
     margin-top: 0px;
     position: relative;
-    width: 100%;
     right: auto;
   }
 }
@@ -193,6 +199,11 @@ section {
   margin: 5px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+@media only screen and (max-width: 576px) {
+  section {
+    margin: 0px;
+  }
 }
 @media only screen and (max-width: 1024px) {
   section {
@@ -333,6 +344,12 @@ div.eckgo {
 .experience div.work-experience {
   margin-left: 70px;
   margin-right: 40px;
+}
+@media only screen and (max-width: 1024px) {
+  .experience div.work-experience {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 .experience .fa-map-marker-alt,
 .experience .fa-calendar-alt {
